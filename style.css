@@ -10,37 +10,35 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f7fc;
+    background-color: black;
     color: #252238;
     line-height: 1.6;
 }
 
 
 header {
-    background-color: white;
+    background-color: black;
     padding: 20px 8%;
     border-bottom: 1px solid #eeeeee;
 }
 
 header h1 {
-    color: #7657e8;
+    color: yellow;
     font-size: 30px;
 }
 
-header p {
-    color: #777777;
-    margin-bottom: 15px;
-}
 
 nav a {
     text-decoration: none;
-    color: #333333;
+    color: rgb(196, 196, 115);
     margin-right: 20px;
     font-weight: bold;
+    display: inline-block;
 }
 
 nav a:hover {
-    color: #7657e8;
+    transform: translateY(-2px);
+    color: white
 }
 
 section {
@@ -50,28 +48,28 @@ section {
 section h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #252238;
+    color: yellow;
 }
 
 section h3 {
-    color: #7657e8;
+    color: yellow;
     margin: 20px 0 10px;
 }
 
 section p {
-    color: #666666;
+    color: rgb(245, 245, 179);
     margin-bottom: 15px;
 }
 
 #home {
     text-align: center;
     padding: 100px 8%;
-    background-color: #eee9ff;
+    background-color: black;
 }
 
 #home h2 {
     font-size: 45px;
-    color: #252238;
+    color: yellow;
 }
 
 #home p {
@@ -82,7 +80,7 @@ section p {
 
 #home a, #contact a {
     display: inline-block;
-    background-color: #7657e8;
+    background-color: red;
     color: white;
     padding: 12px 25px;
     border-radius: 6px;
@@ -91,11 +89,11 @@ section p {
 }
 
 #home a:hover, #contact a:hover {
-    background-color: #5b3cc4;
+    background-color: black;
 }
 
 #services {
-    background-color: white;
+    background-color: black;
 }
 
 #services h2 {
@@ -103,7 +101,7 @@ section p {
 }
 
 #services h3 {
-    background-color: #f3f0ff;
+    background-color: black;
     padding: 15px;
     border-radius: 6px;
 }
@@ -114,7 +112,7 @@ section p {
 
 
 #about {
-    background-color: #f0edff;
+    background-color: black;
     text-align: center;
 }
 
@@ -126,7 +124,7 @@ section p {
 
 #contact {
     text-align: center;
-    background-color: white;
+    background-color: black;
 }
 
 
@@ -137,14 +135,14 @@ hr {
 
 
 footer {
-    background-color: #252238;
-    color: white;
+    background-color: black;
+    color: yellow;
     text-align: center;
     padding: 25px;
 }
 
 footer p {
-    color: #dddddd;
+    color: yellow;
 }
 
 
