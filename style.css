@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f7fc;
+    color: #252238;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: white;
+    padding: 20px 8%;
+    border-bottom: 1px solid #eeeeee;
+}
+
+header h1 {
+    color: #7657e8;
+    font-size: 30px;
+}
+
+header p {
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #7657e8;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #252238;
+}
+
+section h3 {
+    color: #7657e8;
+    margin: 20px 0 10px;
+}
+
+section p {
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+#home {
+    text-align: center;
+    padding: 100px 8%;
+    background-color: #eee9ff;
+}
+
+#home h2 {
+    font-size: 45px;
+    color: #252238;
+}
+
+#home p {
+    max-width: 600px;
+    margin: 0 auto 25px;
+}
+
+
+#home a, #contact a {
+    display: inline-block;
+    background-color: #7657e8;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home a:hover, #contact a:hover {
+    background-color: #5b3cc4;
+}
+
+#services {
+    background-color: white;
+}
+
+#services h2 {
+    text-align: center;
+}
+
+#services h3 {
+    background-color: #f3f0ff;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#services p {
+    padding: 0 15px;
+}
+
+
+#about {
+    background-color: #f0edff;
+    text-align: center;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+#contact {
+    text-align: center;
+    background-color: white;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+}
+
+
+footer {
+    background-color: #252238;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    color: #dddddd;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+    }
+
+    section {
+        padding: 40px 5%;
+    }
+
+    #home {
+        padding: 70px 5%;
+    }
+
+    #home h2 {
+        font-size: 32px;
+    }
+
+    section h2 {
+        font-size: 27px;
+    }
+}
